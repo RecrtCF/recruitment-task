@@ -42,7 +42,7 @@ namespace CouponFollow.Automation.Tests.TrendingOffers
         }
 
         [Test]
-        public void GetTrendingOffers_CatcVersionProvided_ReturnedNumberOfTrendingOffersIsLessOrEqualTo20()
+        public void GetTrendingOffers_CatcVersionHeaderProvided_ReturnedNumberOfTrendingOffersIsLessOrEqualTo20()
         {
             // Arrange
             var client = new RestClient(BaseUrl);
@@ -58,7 +58,7 @@ namespace CouponFollow.Automation.Tests.TrendingOffers
         }
 
         [Test]
-        public void GetTrendingOffers_CatcVersionProvided_EachReturnedOfferContainsUniqueDomainName()
+        public void GetTrendingOffers_CatcVersionHeaderProvided_EachReturnedOfferContainsUniqueDomainName()
         {
             // Arrange
             var client = new RestClient(BaseUrl);
