@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CouponFollow.Automation.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="baseUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://couponfollow.com/api</Value>
+    </Setting>
+    <Setting Name="catcVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5.0.0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
